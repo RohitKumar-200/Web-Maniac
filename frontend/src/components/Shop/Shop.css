@@ -1,0 +1,103 @@
+.main__shop {
+  padding: 10px 10%;
+}
+.shopPageHeading {
+  font-size: 2.5em;
+  font-family: "Barlow Condensed", sans-serif;
+  color: #494949;
+}
+.shopItemContainer {
+  display: flex;
+  background-color: #ffffff;
+  height: 200px;
+  margin-top: 20px;
+}
+.shopItem__left {
+  width: 25%;
+  padding: 10px;
+}
+.shopItem__left img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border: 0.5px solid #dadada;
+}
+.shopItem__right {
+  padding-left: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.shopItem__heading {
+  font-size: 1.1em;
+  font-weight: 700;
+}
+.shopItem__subHeading {
+  color: #202020;
+  margin-top: 5px;
+  font-size: 0.9em;
+}
+.shopItem__quantity {
+  display: flex;
+  align-items: center;
+}
+.shopItem__quantity .MuiSvgIcon-root {
+  font-size: 0.8em;
+  color: #4b4b4b;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  border: 0.5px solid #dadada;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #f7f7f7;
+}
+.shopItem__quantity .MuiSvgIcon-root:hover {
+  opacity: 0.8;
+}
+.shopItem__quantityInput {
+  width: 30px;
+  text-align: center;
+  margin: 0 10px;
+  font-size: 1em;
+  padding: 2px;
+  border: 0.5px solid #adadad;
+  outline: none;
+}
+.shopItem__price {
+  font-weight: 800;
+}
+.shopItem__removeButton,
+.shopItem__editButton {
+  background-color: #6ccaf0;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  padding: 5px;
+  border-radius: 2px;
+  cursor: pointer;
+  width: max-content;
+}
+.shopItem__removeButton:hover,
+.shopItem__editButton:hover {
+  opacity: 0.8;
+}
+
+.shop__addIconContainer {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    background-color: #58b5da;
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.shop__addIconContainer .MuiSvgIcon-root {
+    color: white !important;
+}

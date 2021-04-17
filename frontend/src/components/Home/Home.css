@@ -1,0 +1,130 @@
+.main {
+  background-color: #fcfcfc;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  margin-top: 60px;
+  padding: 0 10%;
+}
+.products__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.products__headerLeft {
+  font-size: 2.5em;
+  font-family: "Barlow Condensed", sans-serif;
+  color: #494949;
+}
+.products__headerRight {
+  color: #19495c;
+  font-size: 1.2em;
+  text-align: right;
+}
+.products__itemConainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.productContainer {
+  padding: 5px;
+  background-color: white;
+  margin-top: 10px;
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 20px -10px #00000050;
+  border: 0.5px solid #dadada;
+}
+.product__imageContainer {
+  text-align: center;
+  flex: 1;
+  border: 0.5px solid #dadada;
+}
+.product__imageContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.product__title {
+  text-align: center;
+  margin-top: 5px;
+  font-weight: 600;
+  color: #3ebdee;
+}
+.product__priceContainer {
+  text-align: center;
+  margin-top: 5px;
+}
+.product__strikedPrice {
+  text-decoration: line-through;
+  color: rgb(145, 145, 145);
+}
+.product__price {
+  margin-left: 10px;
+  font-weight: 700;
+}
+.product__button {
+  margin: 10px auto;
+  width: max-content;
+  padding: 5px 10px;
+  border: 0.5px solid #dadada;
+  outline: none;
+  cursor: pointer;
+}
+.productContainer:hover .product__button {
+  background-color: #6ccaf0;
+  color: #ffffff;
+}
+
+.categoriesContainer {
+  padding-top: 20px;
+}
+.categories__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.categories__headerLeft {
+  font-size: 2.5em;
+  font-family: "Barlow Condensed", sans-serif;
+  color: #494949;
+}
+.categories__headerRight {
+  color: #19495c;
+  font-size: 1.2em;
+  text-align: right;
+}
+.categories__itemContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.category {
+  background-color: white;
+  margin-top: 10px;
+  width: 24%;
+  box-shadow: 0 0 20px -10px #00000050;
+  border: 0.5px solid #dadada;
+  position: relative;
+}
+.category__imageContainer {
+  flex: 1;
+  width: 100%;
+}
+.category__imageContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.category__title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #3ebcee81;
+  text-align: center;
+  padding: 5px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 0 5px #00000069;
+}
